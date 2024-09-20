@@ -16,7 +16,7 @@ const iconMap = {
 export default async function CardWrapper() {
   return (
     <>
-      {/* NOTE: Uncomment this code in Chapter 9 */}
+      {/* NOTE: comment in this code when you get to this point in the course */}
 
       {/* <Card title="Collected" value={totalPaidInvoices} type="collected" />
       <Card title="Pending" value={totalPendingInvoices} type="pending" />
@@ -34,10 +34,6 @@ export function Card({
   title,
   value,
   type,
-}: {
-  title: string;
-  value: number | string;
-  type: 'invoices' | 'customers' | 'pending' | 'collected';
 }) {
   const Icon = iconMap[type];
 
